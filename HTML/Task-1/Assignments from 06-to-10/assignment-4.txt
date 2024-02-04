@@ -1,0 +1,21 @@
+<p>Hello World</p>
+
+<p>
+Hello World
+</p>
+
+<p>
+Hello
+World
+</p>
+
+<p>
+Hello
+
+
+World
+</p>
+
+<!-- هل هذه العناصر سوف تظهر كلها بنفس الشكل أم لا ؟ -->
+
+Yes

@@ -1,0 +1,14 @@
+<!-- Question 1 Answer Below -->
+<!DOCTYPE html>
+
+<!-- Question 2 Answer Below -->
+Quirks mode
+
+<!-- Question 3 Answer Below -->
+NO
+
+<!-- Question 4 Answer Below -->
+NO
+
+<!-- Question 5 Answer Below -->
+Their name is headings they are titles or subtitles that you want to display on a webpage.
