@@ -1,0 +1,15 @@
+Header = Existant
+Nav = Existant
+Main = Existant
+Aside = Existant
+Picture = Existant
+Figure = Existant
+Footer = Existant
+FigCaption = Existant
+Section = Existant
+Command = Not Existant 
+Ruby = Not Existant
+Data = Existant
+Article = Existant
+Install = Not Existant
+Text = Not Existant

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="test.py" method="post">
+    <div>
+      <label for="username">Username</label>
+      <br>
+      <input name="username" type="text" placeholder="ex: redaelsayed" required id="username">
+    </div>
+    <hr>
+
+    <div>
+      <label for="pass">Password</label>
+      <br>
+      <input name="password" type="password" min="8" placeholder="at least 8 characters" id="pass">
+    </div>
+    <hr>
+
+    <div>
+      <label for="mob">Mobile</label>
+      <br>
+      <input name="Mobile" type="tel" placeholder="ex:01065086328" id="mob">
+    </div>
+    <hr>
+
+    <div>
+      <label for="email">Email</label>
+      <br>
+      <input name="email" type="email" placeholder="ex:reda@gmail.com" required id="email">
+    </div>
+    <hr>
+
+    <div>
+      <label for="sub">Subject</label>
+      <br>
+      <input name="subject" placeholder="enter the subject here" id="sub">
+    </div>
+    <hr>
+
+    <input type="submit" value="Send Data">
+    <input type="reset" value="Empty Form">
+
+    <input type="hidden" name="important" value="20812020">
+  </form>
+</body>
+
+</html>
