@@ -1,0 +1,33 @@
+div {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  color: white;
+  background-color: #eeeeee;
+  background-image: url(image.png);
+}
+
+.assign-2-shape-1 {
+  background-repeat: no-repeat;
+  background-size: 80%;
+  
+}
+
+.assign-2-shape-2 {
+  background-repeat: repeat-y;
+  background-position: right;
+  background-size: 80% 100%;
+}
+
+.assign-2-shape-3 {
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 100% 80%;
+}
+
+.assign-2-shape-4 {
+  /* this is the default we didn't need to do that  */
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom right;
+}
