@@ -1,2 +1,0 @@
-<!-- Path is : assets/master.css -->
-<link rel="stylesheet" href="assets/master.css" />
