@@ -1,0 +1,20 @@
+div {
+  width: 500px;
+
+  /*margin for top and down is 20px and auto for left and ritht*/
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+
+  background-color: rgb(138, 43, 226);
+  background-color: #8a2be2;
+  background-color: hsl(271.1, 75.9%, 52.7%);
+}
+
+.assign-1-shape-2 {
+  background-color: rgba(138, 43, 226, 50%);
+}
+
+.assign-1-shape-3 {
+  background-color: rgba(138, 43, 226, .1);
+}
