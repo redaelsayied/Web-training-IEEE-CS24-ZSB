@@ -1,0 +1,18 @@
+p {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.one{
+  text-transform: uppercase;
+}
+
+.two{
+  text-transform: capitalize;
+}
+
+.three{
+  text-transform: lowercase;
+}
+

@@ -1,0 +1,22 @@
+html{
+  font-size: 20px;
+}
+
+p {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.one{
+  font-size: 2.5rem;
+}
+
+.two{
+  font-size: 2rem;
+}
+
+.three{
+  font-size: 1.5rem;
+}
+
