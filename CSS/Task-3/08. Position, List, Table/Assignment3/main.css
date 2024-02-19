@@ -1,0 +1,20 @@
+.ul-container{
+  width: 400px;
+  margin: auto;
+}
+
+li{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.parent{
+  background-color: #eee;
+  list-style-type:none;
+  margin: 20px;
+}
+
+.ul-circle{
+  list-style-position: inside;
+}

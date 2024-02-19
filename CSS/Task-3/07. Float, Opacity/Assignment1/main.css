@@ -1,0 +1,34 @@
+.parent {
+  background-color: #eee;
+  width: 800px;
+  text-align: center;
+}
+
+.parent div {
+  float: left;
+  background-color: #ddd;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 15px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fullwidth {
+  margin-top: 15px;
+  width: calc(100% - 2*15px);
+}
+
+.third {
+  width: calc((100% - 4*15px)/3);
+}
+
+.half {
+  width: calc((100% - 3*15px)/2);
+}
+
+.fourth{
+  width: calc((100% - 5*15px)/4);
+}

@@ -1,0 +1,23 @@
+p {
+  background-color: #eee;
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border-right: #f44336 solid 5px;
+  counter-increment: count;
+  position: relative;
+}
+
+p::before {
+  content: counter(count);
+  background-color: #f44336;
+  color:white;
+  position: absolute;
+  /* height: 100%; */
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  top: calc(50% - 25px);
+  left: -51px;
+}

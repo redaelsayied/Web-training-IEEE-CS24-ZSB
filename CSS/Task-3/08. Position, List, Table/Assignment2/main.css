@@ -1,0 +1,44 @@
+div {
+  width: 400px;
+  margin: auto;
+  background-color: #eee;
+  padding: 30px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #f44336 #2196f3;
+  position: relative;
+}
+
+span {
+  width: 10px;
+  height: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+  color: white;
+  border:3px #f44336;
+  position: absolute;
+}
+
+.top-left {
+  border-right-style: solid;
+  top: -10px;
+  left: -10px;
+}
+
+.bottom-left{
+  border-right-style: solid;
+  bottom: -10px;
+  left: -10px;
+}
+
+.top-right{
+  border-left-style: solid;
+  top: -10px;
+  right: -10px;
+}
+
+.bottom-right{
+  border-left-style: solid;
+  bottom: -10px;
+  right: -10px;
+}
