@@ -1,0 +1,75 @@
+.parent {
+  width: 550px;
+  margin: 100px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.free-card {
+  background-color: #eee;
+  width: 250px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.pro-card {
+  background-color: #eee;
+  width: 250px;
+  height: 300px;
+  float: right;
+  position: relative;
+}
+
+.squre {
+  background-color: #03a9f4;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 20px;
+  border-radius: 7px;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 8%;
+}
+
+.circle {
+  background-color: #ddd;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 46px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 27%;
+}
+
+.pro-card::before {
+  content: "";
+  background-color: #03a9f4;
+  height: 300px;
+  width: 2px;
+  position: absolute;
+  left: -25px;
+  z-index: 0;
+}
+
+.free-card::after {
+  content: "Or";
+  background-color: #03a9f4;
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  z-index: 1;
+}

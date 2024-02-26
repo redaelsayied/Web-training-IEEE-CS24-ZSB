@@ -1,0 +1,29 @@
+.parent {
+  background-color: #eee;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  transition-duration: .5s;
+}
+
+.parent div {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.down {
+  background-color: #ddd;
+  transition-delay: .5s;
+  transition-duration: .5s;
+}
+
+.parent:hover {
+  margin-top: 0px;
+}
+
+.parent:hover .down {
+  margin-top: 50px;
+}
