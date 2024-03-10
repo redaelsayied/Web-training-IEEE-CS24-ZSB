@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+  display: grid;
+  gap: 5% 2.5%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.grid div {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eight {
+  order: -1;
+  grid-column: 1 / span 12;
+}
+
+.one {
+  order: 8;
+  grid-column: 1 / span 12;
+}
+
+.two {
+  grid-column-end: span 8;
+}
+
+.three {
+  grid-column-end: span 4;
+}
+
+.four,
+.six,
+.seven {
+  grid-column-end: span 4;
+}
+
+.five {
+  grid-area: 3/ 5 / span 3 / span 8;
+}
