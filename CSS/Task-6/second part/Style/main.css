@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 2fr auto 1fr;
+    gap: 10px;
+}
+
+.circle {
+    background-color: #eef0f8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+i {
+    font-size: 40px;
+    color: #596afc;
+}
+
+p {
+    color: gray;
+}
+
+.layout {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4%;
+}
+
+.boostrab {
+    grid-column-end: span 4;
+}
+
+.use {
+    grid-column-end: span 4;
+}
+
+.design {
+    grid-column-end: span 4;
+}
