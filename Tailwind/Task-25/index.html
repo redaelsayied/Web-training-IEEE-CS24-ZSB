@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="./src/styles/font.css" />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body
+    class="font-HankenGrotesk flex h-screen w-screen select-none flex-col justify-between text-lg"
+  >
+    <!-- Main -->
+    <main
+      class="container mx-auto h-full md:flex md:content-center md:items-center md:justify-center"
+    >
+      <div class="md:flex md:rounded-3xl md:overflow-hidden md:flex-row md:shadow-xl">
+        <!-- Result -->
+        <section
+          class="from-light-slate-blue to-light-royal-blue text-light-lavender flex h-72 w-full flex-col items-center rounded-b-3xl bg-gradient-to-b p-4 text-center md:h-96 md:w-60 md:rounded-t-3xl"
+        >
+          <h1 class="text-base">Your Result</h1>
+          <div
+            class="from-persian-blue to-violet-blue my-6 flex h-28 w-28 flex-col justify-center gap-1 rounded-full bg-gradient-to-t md:h-40 md:w-40"
+            id="result__valor"
+          >
+            <h2 class="text-5xl font-extrabold text-white md:text-6xl">0</h2>
+            <p class="text-sm">of 100</p>
+          </div>
+          <h3 class="mb-2 text-lg text-white md:text-xl">Great</h3>
+          <p class="text-sm">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <!-- /Result -->
+
+        <!-- Summary -->
+        <section
+          class="text-dark-gray-blue grid grid-rows-5 content-around items-center gap-2 px-4 text-sm md:w-64 md:rounded-r-3xl md:py-2"
+        >
+          <h2 class="pt-3 text-base font-extrabold md:pt-0">Summary</h2>
+          <div
+            class="bg-light-red flex flex-row justify-between rounded-lg bg-opacity-15 p-4"
+            id="summary__reaction"
+          >
+            <div class="flex flex-row space-x-2">
+              <img src="./assets/images/icon-reaction.svg" alt="Thunder" />
+              <h3 class="text-light-red font-bold">Reaction</h3>
+            </div>
+            <h4><b>0</b> / 100</h4>
+          </div>
+          <div
+            class="bg-orangey-yellow flex flex-row justify-between rounded-lg bg-opacity-15 p-4"
+            id="summary__memory"
+          >
+            <div class="flex flex-row space-x-2">
+              <img src="./assets/images/icon-memory.svg" alt="Brain" />
+              <h3 class="text-orangey-yellow font-bold">Memory</h3>
+            </div>
+            <h4><b>0</b> / 100</h4>
+          </div>
+          <div
+            class="bg-green-teal flex flex-row justify-between rounded-lg bg-opacity-15 p-4"
+            id="summary__verbal"
+          >
+            <div class="flex flex-row space-x-2">
+              <img src="./assets/images/icon-verbal.svg" alt="Speech Bubble" />
+              <h3 class="text-green-teal font-bold">Verbal</h3>
+            </div>
+            <h4><b>0</b> / 100</h4>
+          </div>
+          <div
+            class="bg-cobalt-blue flex flex-row justify-between rounded-lg bg-opacity-15 p-4"
+            id="summary__visual"
+          >
+            <div class="flex flex-row space-x-2">
+              <img src="./assets/images/icon-visual.svg" alt="Open Eye" />
+              <h3 class="text-cobalt-blue mr-2 font-bold">Visual</h3>
+            </div>
+            <h4><b>0</b> / 100</h4>
+          </div>
+
+          <button
+            class="bg-dark-gray-blue hover:bg-light-slate-blue rounded-full py-3 text-lg font-bold text-white transition duration-300 ease-in-out"
+            id="summary__select-player"
+          >
+            Continue
+          </button>
+        </section>
+        <!-- /Summary -->
+      </div>
+    </main>
+    <!-- /Main -->
+
+    <!-- Footer -->
+    <footer class="bottom-0 m-1 text-center text-xs">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="text-footer-link-color"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/leozende" class="text-footer-link-color"
+        >Leonardo R.</a
+      >.
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="./src/scripts/main.js" defer></script>
+  </body>
+</html>
